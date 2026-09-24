@@ -1,0 +1,26 @@
+.customer-table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 650px;
+}
+
+.customer-table th, .customer-table td {
+  border: 1px solid #777;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.group-header td {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.image-cell {
+  text-align: center;
+}
+
+.image-cell img {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,13 @@
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid #777;
+}
+td {
+  padding: 8px 12px;
+}
+button {
+  cursor: pointer;
+  padding: 4px 10px;
+}
