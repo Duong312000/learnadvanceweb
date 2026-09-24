@@ -1,16 +1,9 @@
 table {
-  border-collapse: collapse;
-  margin: 15px 0;
+    border-collapse: collapse;
+    width: 100%;
 }
-table, th, td {
-  border: 1px solid #777;
-}
-td {
-  padding: 10px 15px;
-  text-align: center;
-  vertical-align: middle;
-}
-a {
-  color: blue;
-  text-decoration: underline;
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
 }

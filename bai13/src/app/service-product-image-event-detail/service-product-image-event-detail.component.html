@@ -1,21 +1,10 @@
-<p>service-product-image-event-detail works!</p> 
-<button (click)="goBack()">Go Back</button> 
-<table border="1" *ngIf="selectedProduct" style="margin-top: 10px;"> 
-    <tr> 
-        <td>ID:</td> 
-        <td>{{selectedProduct.ProductId}}</td> 
-    </tr> 
-    <tr> 
-        <td>Name:</td> 
-        <td>{{selectedProduct.ProductName}}</td> 
-    </tr> 
-    <tr> 
-        <td>Price:</td> 
-        <td>{{selectedProduct.Price}}</td> 
-    </tr> 
-    <tr> 
-        <td colspan="2" style="text-align: center;"> 
-            <img [src]="selectedProduct.Image" width="150" style="max-height: 150px; object-fit: contain;"/> 
-        </td>         
-    </tr> 
-</table> 
+<p>service-product-image-event-detail works!</p>
+<div *ngIf="selectedProduct">
+    <p>Ma SP: {{selectedProduct.ProductId}}</p>
+    <p>Ten SP: {{selectedProduct.ProductName}}</p>
+    <p>Gia SP: {{selectedProduct.Price}}</p>
+    <p>
+        <img src="{{selectedProduct.Image}}" width="200" style="max-height: 200px; object-fit: contain;">
+    </p>
+    <button (click)="goBack()">Go back</button>
+</div>

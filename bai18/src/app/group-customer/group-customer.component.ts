@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { CustomerService } from '../customer.service';
 
 @Component({
   selector: 'app-group-customer',
-  imports: [CommonModule],
   templateUrl: './group-customer.component.html',
-  styleUrls: ['./group-customer.component.css']
+  standalone: false,
+  styleUrl: './group-customer.component.css'
 })
 export class GroupCustomerComponent implements OnInit {
   customerGroups: any[] = [];
